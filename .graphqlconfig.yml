@@ -1,0 +1,18 @@
+projects:
+  amplifymultienvexample-devb:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - src/graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: src/api.ts
+        docsFilePath: src/graphql
+        region: us-east-2
+        apiId: ovi4ubo6y5ea3p6njp3m66kcem
+        maxDepth: 2
+extensions:
+  amplify:
+    version: 3
