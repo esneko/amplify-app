@@ -6,6 +6,7 @@
     "target": "esnext",
     "jsx": "react",
     "outDir": "./dist",
+    "allowJs": true,
     "strict": true
   },
   "include": ["./src/**/*"]
