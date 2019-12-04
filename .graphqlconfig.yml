@@ -13,6 +13,6 @@ projects:
         region: us-east-2
         apiId: 5hhhjp6g3nftvkpkqgzqzfwrau
         maxDepth: 2
-extensions:
-  amplify:
-    version: 3
+      endpoints:
+        prod: >-
+          https://bbmsodpbozddth6cn5vin47lgm.appsync-api.us-east-2.amazonaws.com/graphql
