@@ -1,30 +1,27 @@
 // tslint:disable
 // this is an auto generated file. This will be overwritten
 
-export const onCreateTodo = `subscription OnCreateTodo($owner: String!) {
-  onCreateTodo(owner: $owner) {
+export const onCreateTodo = `subscription OnCreateTodo {
+  onCreateTodo {
     id
     name
     description
-    owner
   }
 }
 `;
-export const onUpdateTodo = `subscription OnUpdateTodo($owner: String!) {
-  onUpdateTodo(owner: $owner) {
+export const onUpdateTodo = `subscription OnUpdateTodo {
+  onUpdateTodo {
     id
     name
     description
-    owner
   }
 }
 `;
-export const onDeleteTodo = `subscription OnDeleteTodo($owner: String!) {
-  onDeleteTodo(owner: $owner) {
+export const onDeleteTodo = `subscription OnDeleteTodo {
+  onDeleteTodo {
     id
     name
     description
-    owner
   }
 }
 `;

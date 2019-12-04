@@ -1,5 +1,5 @@
 projects:
-  amplifymultienvexample-devb:
+  amplifymultienvexample-prod:
     schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.ts
@@ -11,8 +11,5 @@ projects:
         generatedFileName: src/api.ts
         docsFilePath: src/graphql
         region: us-east-2
-        apiId: ovi4ubo6y5ea3p6njp3m66kcem
+        apiId: 5hhhjp6g3nftvkpkqgzqzfwrau
         maxDepth: 2
-extensions:
-  amplify:
-    version: 3

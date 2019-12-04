@@ -9,7 +9,6 @@ export const createTodo = `mutation CreateTodo(
     id
     name
     description
-    owner
   }
 }
 `;
@@ -21,7 +20,6 @@ export const updateTodo = `mutation UpdateTodo(
     id
     name
     description
-    owner
   }
 }
 `;
@@ -33,7 +31,6 @@ export const deleteTodo = `mutation DeleteTodo(
     id
     name
     description
-    owner
   }
 }
 `;
